@@ -1,0 +1,19 @@
+meta {
+  name: CREATE-COMMENT
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:3000/api/earthquakes/create_comment
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "feature_id": 2,
+    "body": "Este es un comentario asociado al feature 2 v1."   // Reemplaza este texto con el contenido de tu comentario
+  }
+  
+}

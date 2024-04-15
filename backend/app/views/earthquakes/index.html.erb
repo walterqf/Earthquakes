@@ -1,0 +1,18 @@
+<h1>Últimos Terremotos Significativos</h1>
+
+<ul>
+  <% @earthquakes.each do |earthquake| %>
+    <li>
+      <strong>ID:</strong> <%= earthquake[:id] %><br>
+      <strong>Magnitude:</strong> <%= earthquake[:mag] %><br>
+      <strong>Place:</strong> <%= earthquake[:place] %><br>
+      <strong>Time:</strong> <%= earthquake[:time] %><br>
+      <strong>URL:</strong> <%= earthquake[:url] %><br>
+      <strong>Tsunami:</strong> <%= earthquake[:tsunami] ? 'Yes' : 'No' %><br>
+      <strong>Magnitude Type:</strong> <%= earthquake[:mag_type] %><br>
+      <strong>Title:</strong> <%= earthquake[:title] %><br>
+      <strong>Longitude:</strong> <%= earthquake[:longitude] %><br>
+      <strong>Latitude:</strong> <%= earthquake[:latitude] %>
+    </li>
+  <% end %>
+</ul>

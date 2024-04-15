@@ -1,0 +1,60 @@
+
+# Significant earthquakes last month
+
+Instructions: 
+
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  Open terminal
+  Go to path project
+  Run the following:
+    bundle install
+    rails db:migrate
+
+  bin/rails server
+
+```
+    
+## API Reference
+
+#### Get all items
+
+```http
+  GET https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `id` | `string` | **Required**. Your API key |
+
+
+
+
+## Authors
+
+- [@walterqf](https://www.github.com/walterqf)
+
+
+## Screenshots
+
+![App Screenshot](https://miro.medium.com/v2/resize:fit:450/1*MtuURq-9Fe3MZM5IZqQgyw.png)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/walterqf/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/walter-quijada-6a1419107/)
+
+
+
+## 🚀 About Me
+I'm a fullstack, I love programming. 
+
+
+![Logo](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xMiAwQzUuMzczIDAgMCA1LjM3MyAwIDEyczUuMzczIDEyIDEyIDEyczEyLTUuMzczIDEyLTEyQzIzLjk5MiA1LjM3NiAxOC42MjQuMDA4IDEyLjAwMSAwem0tLjQ5NSAxNS42ODljLjA2OC4yMDMtLjUyNS43OTUtLjU3NS44MjlzLTEuMTUtLjU3NS0xLjMzNy0uNjZhNS44NjMgNS44NjMgMCAwIDEtLjU5OS0xLjQxM2wtLjAxLS4wNDJsLS40MDYtLjM4OXMtLjkzLS42OTQtMS4wMTUtLjcyN3MtLjI1NC0xLjMzNi0uMzA4LTEuNDU1YTIuODUzIDIuODUzIDAgMCAwLS41MTYtLjU1NmwtLjAwNS0uMDA0YTUuMjkyIDUuMjkyIDAgMCAxLS4xNTItMS4yMTV2LS4wMDNjLjA0My0uNDMxLjE4Mi0uODIyLjM5NS0xLjE2MmwtLjAwNy4wMTFhMi4wMDkgMi4wMDkgMCAwIDAgLjIxNy0xLjUxOWwuMDAzLjAxNGMtLjEwMi0uMTY5LS43NjUuMDgtLjc2NS4wOGEyLjM2OSAyLjM2OSAwIDAgMC0uNTQzLS4yMTdsLS4wMTctLjAwNGwtLjM0My0uNjRzLTIuMDQ0LS4xNDYtMi4wMS0uMTk2YzEuOTQ3LTIuNzMyIDUuMTAzLTQuNDkyIDguNjcxLTQuNDkyYy40NzMgMCAuOTM5LjAzMSAxLjM5Ni4wOTFsLS4wNTQtLjAwNmguMTFjLjM2Ni4wMjcuNzA0LjAyNy44OTYuMzY3Yy4wMzguMDY2LjcyNC42NjkuNzA3LjY2OWgtMS44NzRsLS4zODkuMzM4bDEuNzEgMS4wMjJjLS4yMzQuMDY0LS43MS4yMTItMS4wMy4zMTRhMS45NzcgMS45NzcgMCAwIDAtLjYwMS4zMWwuMDA1LS4wMDRsLS42NzYuNTA3bC0uNjI5Ljg5OWwuOTE2LjY3N3MxLjA2Ni44MTIgMS4xMi44NDZzLjI3LS42NzcuMjctLjY3N3EtLjAzNy0uODIyLS4wNy0xLjY0NmwuNTA3LjE2OWwuNzQ0LS4wNjhsLjgyOS42NGMuMTQzLjIyNC4yODUuNDg0LjQwNy43NTZsLjAxNi4wNGMtLjAxLjExNC0uMDkuNzM1LjA1NC43NThoLjAwNmEuMTQ4LjE0OCAwIDAgMCAuMDc1LS4wMjFoLS4wMDFjLjI1Ny0uMTI1LjUwMS0uMjcuNzQ2LS40MTVjLjExNi0uMDY5LjM2NC0uMjg5LjUwNS0uMjg5Yy0uMDYxLjI1LS4xNDguNDctLjI2MS42NzRsLjAwNy0uMDE0Yy0uMDI2LjA0LS42NiAxLjA5NS0uOTMgMS41NDNjLS4wODUuMTQtLjE3OS4yNjEtLjI4Ny4zNjlsLS44OC44OTZsLjMwNS41MjRsLS43MzYuODcxYTIuMDI0IDIuMDI0IDAgMCAxLS4xOTkuMjA0bC0uMDAyLjAwMmwtLjc4OS42OTlzLS44NjIuMjAzLS45MTQuMjAzcy0uNjk0LjE1Mi0uNjk0LjE1MnMtMS4yMTgtLjExOC0xLjM4Ny41MjRhMy41NjIgMy41NjIgMCAwIDAgLjM5OCAxLjg1NmwtLjAwOS0uMDJ6bTguOTg2LTMuMTM4Yy4xNTQtLjAzNC0uNDEuNzItLjQ0NS44MzhhNS43MTcgNS43MTcgMCAwIDEtLjYxNS43MmwtLjk2LjEyYTIuMDExIDIuMDExIDAgMCAxIDEuNzk3LTEuNjUxbC4wMDgtLjAwMWMuMTA1LS4wMS4xODQtLjAxOS4yMTQtLjAyNnptLTUuNDQ1IDMuMDA1bC0uNDQ5LS42NjRjLS4wMzYtLjA1NC4xNzktLjI4Ny4xNzktLjI4N3MxLjcwNS0uMjUxIDEuODY2LS4yMzRzLjQzLjUyMS40My41MjFzLS41OTIuNzcxLS43OS43NzFzLTEuMjM4LS4xMDctMS4yMzgtLjEwN3ptLjQ1NCAyLjMyOHMtLjIwNS4wODYtLjQxLjE4OHMtLjQ2Mi4xODgtLjQ5Ni4xMmEyLjMyOCAyLjMyOCAwIDAgMC0uNDUyLS4zN2wtLjAxLS4wMDZhNC45MDMgNC45MDMgMCAwIDAtLjc5MS0uNDY3bC0uMDMtLjAxM2EyLjA4NCAyLjA4NCAwIDAgMS0uNjgxLS41NmwtLjAwMy0uMDA0Yy0uMDQ0LS4wOTkuMTcxLS4zOTMuMjA1LS41NDdzLS4wMTctLjYxMy4wODYtLjU2cy4zMjUtLjA4LjU0NyAwYy4yNS4wNzkuNDYzLjIxNC42MzIuMzkxbC4wMDEuMDAxYy4xMDMuMjI0LjI0Ny40MTIuNDI1LjU2MmwuMDAyLjAwMmMuMTg4LjEyLjUzLjI1Ni41MTMuNDhzLjI1Ny41MTMuMjU3LjUxM3ptLjMzNCAzLjJjLS45MzEtLjQxMy0xLjE2NC0uODgtMS4wOTMtLjk2OWMuMy0uMjY2LjU3NS0uNTM1LjgzNi0uODE4bC4wMDctLjAwOGMuMTc5LS4yNTEgMS4xMTMtMS4zMSAxLjExMy0xLjMxbC0uMjg3LS41NzRsLjgtLjQ3NGMuMjM3LS4xNDIuNTE2LS4yMzguODE2LS4yNjhsLjAwOC0uMDAxbC43OC0uMDc2cS4wNy0uMDA3LjEzOS0uMDA5bDEuMjU4LS4wMzRzMS4xNDMtLjI5Ni45NjkuMDE4Yy0yLjYxOCA0LjczLTUuMzQ2IDQuNTIxLTUuMzQ2IDQuNTIxeiIvPjwvc3ZnPg==)
+
